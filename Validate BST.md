@@ -32,5 +32,3 @@ class Solution(object):
         return isBSTUtil(root, None, None)
 
 ```
-
-- Leetcode: `https://leetcode.com/problems/validate-binary-search-tree/submissions/950242613/`
