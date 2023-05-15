@@ -1,9 +1,14 @@
 # Soltion of
 - Validate BST
 - `https://leetcode.com/problems/validate-binary-search-tree/description/`
-
-'''python
-classclass Solution(object):
+```
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution(object):
     def isValidBST(self, root):
         """
         :type root: TreeNode
@@ -25,6 +30,7 @@ classclass Solution(object):
             )
         
         return isBSTUtil(root, None, None)
-        
-```     
+
+```
+
 - Leetcode: `https://leetcode.com/problems/validate-binary-search-tree/submissions/950242613/`
