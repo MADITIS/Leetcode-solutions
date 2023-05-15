@@ -1,7 +1,7 @@
 # Soltion of
 - Validate BST
 - `https://leetcode.com/problems/validate-binary-search-tree/description/`
-```
+```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):
