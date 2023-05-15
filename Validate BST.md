@@ -2,8 +2,8 @@
 - Validate BST
 - `https://leetcode.com/problems/validate-binary-search-tree/description/`
 
-
-class Solution(object):
+'''python
+classclass Solution(object):
     def isValidBST(self, root):
         """
         :type root: TreeNode
@@ -26,5 +26,5 @@ class Solution(object):
         
         return isBSTUtil(root, None, None)
         
-        
+```     
 - Leetcode: `https://leetcode.com/problems/validate-binary-search-tree/submissions/950242613/`
